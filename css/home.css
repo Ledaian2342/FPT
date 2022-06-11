@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #111;
+}
+
+.header_top_mobile {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 0 15px;
+    background-color: #000;
+    color: #aeaeae;
+}
+
+.header_top_mobile img {
+    margin: 0 auto;
+}
+
+.header_banner_mobile {
+    position: relative;
+}
+
+.header_banner_mobile img {
+    width: 360px;
+    padding: 0 15px;
+}
+
+.header_banner_mobile_text {
+    color: aliceblue;
+    position: absolute;
+    bottom: 60px;
+    left: 25px;
+    font-size: 15pt;
+}
+
+.header_banner_mobile_text strong {
+    color: #aeaeae;
+    position: absolute;
+    padding-top: 13px;
+}
+
+section h3 {
+    color: aliceblue;
+    padding: 15px 20px;
+}
+
+.the_thaos {
+    padding: 0 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    overflow: scroll;
+    color: aliceblue;
+    font-size: 10px;
+}
+
+.the_thao {
+    padding: 0 5px;
+}
+
+.the_thao img {
+    width: 150px;
+}
+
+.phim_bo_hots {
+    padding: 0 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    overflow: scroll;
+    color: aliceblue;
+    font-size: 10px;
+}
+
+.phim_bo {
+    padding: 0 5px;
+}
+
+.phim_bo img {
+    width: 100px;
+    height: 130px;
+}
