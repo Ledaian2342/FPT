@@ -46,42 +46,38 @@ body {
 
 section h3 {
     color: aliceblue;
-    padding: 15px 20px;
+    padding: 25px 20px;
 }
 
-.the_thaos {
-    padding: 0 20px;
-    margin-top: 20px;
+.content {
     display: flex;
     justify-content: space-between;
     overflow: scroll;
     color: aliceblue;
-    font-size: 10px;
 }
 
-.the_thao {
-    padding: 0 5px;
+.content_img_small {
+    font-size: 8pt;
+    padding: 0 15px;
 }
 
-.the_thao img {
+.content_img_small img {
     width: 150px;
 }
 
-.phim_bo_hots {
-    padding: 0 20px;
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    overflow: scroll;
-    color: aliceblue;
-    font-size: 10px;
+.content_img_small h2 {
+    padding-top: 5px;
 }
 
-.phim_bo {
-    padding: 0 5px;
+.content_img_lager {
+    font-size: 8pt;
+    padding: 0 15px;
 }
 
-.phim_bo img {
-    width: 100px;
-    height: 130px;
+.content_img_lager img {
+    width: 150px;
+}
+
+.content_img_lager h2 {
+    padding-top: 5px;
 }
