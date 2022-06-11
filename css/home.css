@@ -26,8 +26,8 @@ body {
 }
 
 .header_banner_mobile img {
-    width: 360px;
-    padding: 0 15px;
+    width: 100%;
+    padding: 15px 15px;
 }
 
 .header_banner_mobile_text {
@@ -58,7 +58,13 @@ section h3 {
 
 .content_img_small {
     font-size: 8pt;
-    padding: 0 15px;
+    padding: 0 5px;
+}
+
+.content_img_small p {
+    color: #ff6500;
+    padding-top: 5px;
+    font-size: 12pt;
 }
 
 .content_img_small img {
@@ -71,13 +77,28 @@ section h3 {
 
 .content_img_lager {
     font-size: 8pt;
-    padding: 0 15px;
+    padding: 0 5px;
 }
 
 .content_img_lager img {
-    width: 150px;
+    width: 130px;
 }
 
 .content_img_lager h2 {
     padding-top: 5px;
+}
+
+.section_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px 0;
+    padding: 0 15px;
 }
